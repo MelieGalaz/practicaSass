@@ -1,0 +1,20 @@
+// ------ Themes ------
+@import "themes/main-theme.scss";
+
+// ------ Base ------
+@import "base/fonts.scss";
+@import "base/reset.scss";
+
+// ------ Utils ------
+@import "utils/mixins.scss";
+
+// ------ Components ------
+@import "components/input.scss";
+@import "components/title.scss";
+
+// ------ Layout ------
+@import "layout/contacto.scss";
+
+// body {
+//   padding-inline: 20px;
+// }

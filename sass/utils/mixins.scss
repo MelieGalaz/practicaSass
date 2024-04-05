@@ -1,0 +1,14 @@
+@mixin breakpoint {
+  @media (min-width: 970px) {
+    @content;
+  }
+}
+
+@mixin title($color) {
+  font-size: 2rem;
+  color: $color;
+
+  @include breakpoint {
+    font-size: $font-xl;
+  }
+}

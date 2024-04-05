@@ -1,0 +1,66 @@
+.contacto {
+  padding-block: 80px;
+  background-color: $alt-color;
+  padding-inline: 20px;
+
+  @include breakpoint {
+    padding-block: 150px;
+  }
+
+  .contacto__contenedor {
+    border: 1px solid $border-color;
+    border-radius: 15px;
+    background-color: white;
+    max-width: 1100px;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    @include breakpoint {
+      padding: 70px;
+      flex-direction: row;
+    }
+
+    .contacto__info {
+      @include breakpoint {
+        width: 50%;
+      }
+    }
+
+    .contacto__form__contenedor {
+      .contacto__form {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px 30px;
+
+        @include breakpoint {
+          grid-template-columns: repeat(2, 1fr);
+
+          > *:not(:first-child):not(:nth-child(2)) {
+            grid-column: span 2;
+          }
+        }
+
+        .contacto__form__input__container {
+          .contacto__form__label {
+            display: block;
+            margin-bottom: 10px;
+          }
+        }
+      }
+
+      .contacto__form__btn {
+        width: 200px;
+        padding: 15px;
+        background-color: $secondary-color;
+        color: white;
+        border: none;
+        border-radius: 25px;
+        font-size: 16px;
+        font-weight: bold;
+      }
+    }
+  }
+}

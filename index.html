@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amaranth:ital@1&family=Kode+Mono:wght@400..700&family=Roboto+Slab:wght@300&display=swap"
+        rel="stylesheet">
+    <title>Ejercicios SASS</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+
+<body>
+    <main>
+        <h1>Practica SASS</h1>
+        <div>
+            <h4>Modulo 1:</h4>
+            <p>HTML Y CSS</p>
+            <ul>
+                <li>Introduccion a HTML</li>
+                <li>Introduccion a CSS</li>
+                <li>Modelo de caja</li>
+                <li>Flexbox</li>
+                <li>Responsive</li>
+            </ul>
+        </div>
+        <div>
+            <h4>Modulo 2:</h4>
+            <p>JAVASCRIPT</p>
+            <ul>
+                <li>Variables</li>
+                <li>Condicionales</li>
+                <li>Funciones </li>
+                <li>DOM</li>
+                <li>Eventos</li>
+            </ul>
+        </div>
+        <div>
+            <h4>Modulo 3:</h4>
+            <p>Estructura de Datos</p>
+            <ul class="lista">
+                <li>Arrays</li>
+                <li>Bucles</li>
+                <li>Callbacks</li>
+                <li>Tailwind</li>
+                <li>SASS</li>
+            </ul>
+        </div>
+        <div>
+            <h4>Modulo 4:</h4>
+            <p>Asincronismo</p>
+            <ul>
+                <li>Get</li>
+                <li>Post</li>
+                <li>Put</li>
+                <li>Delete</li>
+                <li>Promesas</li>
+            </ul>
+        </div>
+        <div>
+            <h4>Modulo 5:</h4>
+            <p>React</p>
+            <ul>
+                <li>JSX</li>
+                <li>useState</li>
+                <li>CSS Modules</li>
+                <li>Componentes</li>
+                <li>Renderizado condicional</li>
+            </ul>
+        </div>
+        <div>
+            <h4>Modulo 6:</h4>
+            <p>Aplicaciones de pagina unica</p>
+            <ul>
+                <li>useEffect</li>
+                <li>Styled Components</li>
+                <li>Context</li>
+                <li>Custom Hooks</li>
+                <li>Routing</li>
+            </ul>
+        </div>
+        <section class="contacto">
+            <div class="contacto__contenedor">
+                <div class="contacto__info">
+                    <h2 class="contacto__info__titulo titulo">Contactame</h2>
+                    <p class="contacto__info__texto">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Consequuntur, voluptas placeat magnam aliquid dignissimos nisi
+                        beatae quas maiores, illum doloribus numquam neque soluta minus
+                        incidunt dicta facilis odit repudiandae quod!
+                    </p>
+                    <ul class="contacto__info__redes">
+                        <li class="contacto__info__item">
+                            <a href="google.com" class="contacto__info__link"><span
+                                    class="contacto__info__icono instagram"></span><span
+                                    class="contacto__info__red">Instagram</span>
+                            </a>
+                        </li>
+                        <li class="contacto__info__item">
+                            <a href="google.com" class="contacto__info__link"><span
+                                    class="contacto__info__icono linkedin"></span><span
+                                    class="contacto__info__red">Linkedin</span></a>
+                        </li>
+                        <li class="contacto__info__item">
+                            <a href="google.com" class="contacto__info__link"><span
+                                    class="contacto__info__icono twitter"></span><span
+                                    class="contacto__info__red">Twitter</span></a>
+                        </li>
+                        <li class="contacto__info__item">
+                            <a href="google.com" class="contacto__info__link"><span
+                                    class="contacto__info__icono youtube"></span><span
+                                    class="contacto__info__red">Youtube</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contacto__form__contenedor">
+                    <h2 class="contacto__form__titulo titulo">Escribeme</h2>
+                    <form action="" class="contacto__form">
+                        <div class="contacto__form__input__container">
+                            <label for="nombre" class="contacto__form__label">Nombre*</label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre..."
+                                class="contacto__form__input" required />
+                        </div>
+                        <div class="contacto__form__input__container">
+                            <label for="apellido" class="contacto__form__label">Apellido*</label>
+                            <input type="text" name="apellido" id="apellido" placeholder="Tu apellido..."
+                                class="contacto__form__input" required />
+                        </div>
+                        <div class="contacto__form__input__container">
+                            <label for="mail" class="contacto__form__label">E-mail*</label>
+                            <input type="email" name="" id="email" name="email" placeholder="Tu email..."
+                                class="contacto__form__input" required />
+                        </div>
+                        <div class="contacto__form__input__container">
+                            <label for="mensaje" class="contacto__form__label">Mensaje*</label>
+                            <textarea name="mensaje" id="mensaje" placeholder="Tu mensaje..."
+                                class="contacto__form__textarea" required></textarea>
+                        </div>
+                        <input type="submit" value="Enviar" class="contacto__form__btn" />
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+.contacto__form__input,
+.contacto__form__textarea {
+  width: 100%;
+  border-radius: 15px;
+  padding: 8px 10px;
+  border: 1px solid $secondary-color;
+  background-color: $alt-color;
+}
+
+.contacto__form__textarea {
+  height: 100px;
+}

@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.contacto__form__input,
+.contacto__form__textarea {
+  width: 100%;
+  border-radius: 15px;
+  padding: 8px 10px;
+  border: 1px solid #ff0099;
+  background-color: #f6f7fb;
+}
+
+.contacto__form__textarea {
+  height: 100px;
+}
+
+.titulo {
+  font-size: 2rem;
+  color: black;
+  padding-bottom: 20px;
+}
+@media (min-width: 970px) {
+  .titulo {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 970px) {
+  .titulo {
+    padding-bottom: 30px;
+  }
+}
+
+.contacto {
+  padding-block: 80px;
+  background-color: #f6f7fb;
+  padding-inline: 20px;
+}
+@media (min-width: 970px) {
+  .contacto {
+    padding-block: 150px;
+  }
+}
+.contacto .contacto__contenedor {
+  border: 1px solid #e0e0e0;
+  border-radius: 15px;
+  background-color: white;
+  max-width: 1100px;
+  margin: auto;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+@media (min-width: 970px) {
+  .contacto .contacto__contenedor {
+    padding: 70px;
+    flex-direction: row;
+  }
+}
+@media (min-width: 970px) {
+  .contacto .contacto__contenedor .contacto__info {
+    width: 50%;
+  }
+}
+.contacto .contacto__contenedor .contacto__form__contenedor .contacto__form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px 30px;
+}
+@media (min-width: 970px) {
+  .contacto .contacto__contenedor .contacto__form__contenedor .contacto__form {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .contacto .contacto__contenedor .contacto__form__contenedor .contacto__form > *:not(:first-child):not(:nth-child(2)) {
+    grid-column: span 2;
+  }
+}
+.contacto .contacto__contenedor .contacto__form__contenedor .contacto__form .contacto__form__input__container .contacto__form__label {
+  display: block;
+  margin-bottom: 10px;
+}
+.contacto .contacto__contenedor .contacto__form__contenedor .contacto__form__btn {
+  width: 200px;
+  padding: 15px;
+  background-color: #ff0099;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=estilos.csstilos.css.map */
